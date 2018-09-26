@@ -1,9 +1,9 @@
-# Enterprise Patterns - Spring Boot
-Enterprise Patterns - Spring Boot
+# New Online Theater
+New Online Theater improved
 
 ::Grupo 1 - NewOnlineTheater
 
 Gustavo Osorio -
 Jonathan Tirado -
-Richard Fernandez -
+Richar Marvin Fernandez -
 Omar Fernandez -
