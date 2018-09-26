@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="theater.Customer.domain.entity">
+  <class name="Customer" table="customer">
+    <id column="customerID" name="CustomerID">
+      <generator class="native"/>
+    </id>
+    <property column="name" name="Name" not-null="true"/>
+    <property column="email" name="Email" not-null="true"/>
+    <property column="status" name="Status" not-null="true"/>
+    <property column="statusExpirationDate" name="StatusExpirationDate" not-null="true"/>
+    <property column="moneySpent" name="MoneySpent" not-null="true"/>
+  </class>
+</hibernate-mapping>
